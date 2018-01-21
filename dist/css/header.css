@@ -1,0 +1,13 @@
+header div#brand {
+  height: 100%;
+  line-height: 90px;
+}
+
+header div#brand img {
+  height: 85%;
+  margin: 7px 30px 5px 0;
+  float: right;
+}
+header div#brand h1 {
+  margin: 0 0 0 20px;
+}

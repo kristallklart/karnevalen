@@ -1,0 +1,112 @@
+@media screen and (min-width: 0px) and (max-width: 768px) {
+  section {
+    display: none;
+  }
+  aside {
+    display: none;
+  }
+  main {
+    width: 100%;
+  }
+
+  div.news-card div.photo {
+    display: none;
+  }
+
+  div.news-card div.description p, div.news-card div.description h2 {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  section {
+    display: none;
+  }
+  aside {
+    width: 25%;
+  }
+  main {
+    width: 75%;
+  }
+}
+
+@media screen and (min-width: 1025px) {
+  section {
+    width: 25%;
+  }
+  main {
+    width: 50%;
+  }
+  aside {
+    width: 25%;
+  }
+
+  ul#navbar li:hover > ul.dropdown-content {
+    display: block;
+    position: absolute;
+  }
+
+  ul#navbar li:hover li, ul.dropdown-content li:hover li {
+    float: none;
+  }
+
+  ul#navbar li:hover a, ul.dropdown-content li:hover a {
+    background: #000;
+  }
+
+  ul#navbar li:hover > a {
+    background: #8A4797;
+  }
+
+  div#menu-button {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 0px) and (max-width: 1024px) {
+  ul#navbar {
+    position: relative;
+    overflow: hidden;
+    height: 0;
+    padding-top: 40px;
+  }
+
+  ul#navbar, ul.dropdown-content {
+    line-height: 20px;
+  }
+
+  ul#navbar li:hover > a {
+    background: #000;
+    color: #8A4797;
+  }
+
+  ul#navbar.open {
+    height: auto;
+  }
+
+  ul#navbar li a, ul.dropdown-content li a {
+    padding: 10px;
+    text-align: left;
+    min-width: 170px;
+  }
+
+  ul#navbar li, ul.dropdown-content li {
+    display: block;
+    position: relative;
+    float: none;
+  }
+
+  li ul.dropdown-content {
+    display: block;
+    padding-left: 30px;
+  }
+
+    div.event-card div.photo {
+    display: none;
+  }
+
+  header div#brand img {
+    display: none;
+  }
+}

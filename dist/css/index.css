@@ -1,0 +1,60 @@
+@import './header.css';
+@import './navbar.css';
+@import './media-queries.css';
+@import './forms.css';
+@import './default-card.css';
+@import './news-card.css';
+@import './event-card.css';
+@import './custom-fotorama.css';
+
+* {
+  font-family: 'Open Sans', sans-serif;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+}
+
+header {
+  background: #FBBCC0;
+  height: 90px;
+}
+
+nav {
+  position: sticky;
+  top: 0;
+  min-height: 40px;
+  z-index: 100;
+  padding: 0px;
+  background-color: #000;
+}
+
+.content {
+  background: #f1f1f1;
+  padding-bottom: 40px;
+  min-height: 100vh;
+}
+
+section, main, aside {
+  float: left;
+}
+
+footer {
+  background: #8A4797;
+  color: #fff;
+  width: 100%;
+  height: 200px;
+  padding: 10px 0px;
+
+}
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.clear-fix {
+  clear: both;
+}

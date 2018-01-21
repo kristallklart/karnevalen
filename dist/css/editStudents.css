@@ -1,0 +1,29 @@
+@import './tables.css';
+
+main {
+  width: 100%;
+  padding-top: 5px;
+  float: none;
+}
+
+.form-controls {
+  width: 50%;
+  min-width: 200px;
+  margin: 20px 0px 30px 5px;
+}
+
+.form-controls select {
+  width: 50%;
+}
+
+.search-flex {
+  display: flex;
+}
+
+.search-flex input[type=text] {
+  margin: 0 10px 0 6px;
+}
+
+.search-flex input[type=submit] {
+  width: 20%;
+}

@@ -1,0 +1,24 @@
+{
+  "name": "karnevalen",
+  "version": "1.0.0",
+  "description": "",
+  "main": "browser-sync.js",
+  "dependencies": {},
+  "devDependencies": {
+    "browser-sync": "^2.18.13"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paulssonkalle/karnevalen.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/paulssonkalle/karnevalen/issues"
+  },
+  "homepage": "https://github.com/paulssonkalle/karnevalen#readme"
+}

@@ -1,0 +1,15 @@
+.event-card {
+  background: #fff;
+  margin: 10px;
+  border-radius: 3px;
+  box-shadow: 2px 6px 7px -3px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+}
+
+.event-card img {
+  width: 100%;
+}
+
+.event-card p {
+  margin: 10px;
+}
